@@ -6,7 +6,8 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+   
     ],
     "overrides": [
         {
@@ -60,8 +61,49 @@ overrides: [
     files: ['src/pages/**/*'],
     rules: {
       'import/no-default-export': 'off',
+      'react/jsx-uses-react': 'off',
+      'react/react-in-jsx-scope': 'off',
+      'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+      'no-use-before-define': ['error', { functions: false }],
+      'no-param-reassign': ['error', { props: false }],
     },
   },
 ],
    
 }
+
+// module.exports = {
+//     env: {
+//       browser: true,
+//       es2021: true,
+//     },
+//     extends: [
+     
+     
+//       'plugin:react/recommended',
+//     ],
+//     overrides: [
+//       {
+//         files: [
+//           'src/**/*.jsx',
+//         ],
+//         rules: {
+//           'react/jsx-uses-react': 'off',
+//           'react/react-in-jsx-scope': 'off',
+//           'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+//           'no-use-before-define': ['error', { functions: false }],
+//           'no-param-reassign': ['error', { props: false }],
+//         },
+//       },
+//     ],
+//     parserOptions: {
+//       ecmaFeatures: {
+//         jsx: true,
+//       },
+//       ecmaVersion: 12,
+//       sourceType: 'module',
+//     },
+//     plugins: [
+//       'react',
+//     ],
+//   };
