@@ -1,6 +1,6 @@
 {
   "name": "grapql-todo-six",
-  "homepage": "http://manasroutcse.github.io/next-todo-two",
+  "homepage": "http://manasroutcse.github.io/graphql-todo-two",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
