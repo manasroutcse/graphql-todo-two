@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "category": "Shop",
+      "description": "Buy 10 eggs and 1 bottle of milk"
+    },
+    {
+      "id": 2,
+      "category": "Special event",
+      "description": "Buy 1 cake for Tom's birthday"
+    },
+    {
+      "id": 3,
+      "category": "Learning",
+      "description": "Try to learn new practices about GraphQL and the Apollo"
+    }
+  ]
