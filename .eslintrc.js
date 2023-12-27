@@ -23,7 +23,7 @@ module.exports = {
         }
     ],
     "parser": "@typescript-eslint/parser",
-    // "parser": "babel-eslint",
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -49,10 +49,11 @@ module.exports = {
             "allowObject": false
           }],
           "import/no-named-as-default": 0,
-        // "import/prefer-default-export": "off",
+        "import/prefer-default-export": "off",
         "import/prefer-default-export": 0,
         "import/no-default-export": "error",
-        // "import/prefer-default-export": "off",
+        "import/prefer-default-export": "off",
+        
     },
 
     'import/no-default-export': 'error',
