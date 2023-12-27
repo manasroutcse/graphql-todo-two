@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/next-todo-two/static/css/main.388f7e3d.css",
-    "main.js": "/next-todo-two/static/js/main.46d220b6.js",
-    "index.html": "/next-todo-two/index.html",
-    "main.388f7e3d.css.map": "/next-todo-two/static/css/main.388f7e3d.css.map",
-    "main.46d220b6.js.map": "/next-todo-two/static/js/main.46d220b6.js.map"
+    "main.css": "/graphql-todo-two/static/css/main.388f7e3d.css",
+    "main.js": "/graphql-todo-two/static/js/main.46d220b6.js",
+    "index.html": "/graphql-todo-two/index.html",
+    "main.388f7e3d.css.map": "/graphql-todo-two/static/css/main.388f7e3d.css.map",
+    "main.46d220b6.js.map": "/graphql-todo-two/static/js/main.46d220b6.js.map"
   },
   "entrypoints": [
     "static/css/main.388f7e3d.css",
